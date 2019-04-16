@@ -16,9 +16,12 @@
   margin-bottom: 0px;
 }
 
-
 .content {
   grid-area: content;
+  .avatar {
+    width: 350px;
+    object-fit: fill;
+  }
 }
 
 .footer {
@@ -36,16 +39,20 @@ body {
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
+
+
 .item {
   color: #ffffff;
-
   /* border: 6px solid #171717; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+  object-fit: contain;
 }
+
+
 
 .header {
   background-color: #1eaafc;
@@ -54,5 +61,5 @@ body {
 .sidebar,
 .content,
 .footer {
-  background-color: #6c52d9;
+  background-color: #1eaafc;
 }
